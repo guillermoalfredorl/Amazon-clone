@@ -1,0 +1,86 @@
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.amazonLogo {
+  height: 60px;
+}
+
+.formContainer {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  min-height: 300px;
+  width: 350px;
+  box-sizing: border-box;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.formContainer > p {
+  font-size: x-large;
+}
+
+.formContainer > input {
+  height: 31px;
+  margin-bottom: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid #e77600;
+  box-shadow: 0 0 10px #f3c394;
+}
+
+.formContainer > button {
+  height: 31px;
+  background: linear-gradient(to top, #f0c353, #f9e7bb);
+  border: 1px solid #a88734;
+  border-radius: 5px;
+  /* margin-bottom: 15px; */
+}
+
+.formContainer > button:hover {
+  background: linear-gradient(to top, #eeb934, #f3d079);
+  cursor: pointer;
+}
+
+.divHr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.divHr > span {
+  width: 100%;
+  color: #838583;
+}
+
+.span {
+  font-size: 0.7rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.button {
+  height: 31px;
+  background: linear-gradient(to top, #e8eaed, #f5f6f8);
+  border: 1px solid #979aa1;
+  border-radius: 5px;
+  width: 350px;
+}
+
+.button:hover {
+  background: linear-gradient(to top, #dadde2, #e5e8ee);
+  cursor: pointer;
+}

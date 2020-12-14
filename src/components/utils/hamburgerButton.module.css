@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 38px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  background-color: #131921;
+  cursor: pointer;
+}
+
+.line1,
+.line2,
+.line3 {
+  background-color: #fff;
+  width: 20px;
+  height: 2px;
+}

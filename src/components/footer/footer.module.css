@@ -1,0 +1,36 @@
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.divBackToTop {
+  background-color: #37475a;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divBackToTop:hover {
+  background-color: #485769;
+  cursor: pointer;
+}
+
+.divBackToTop > a {
+  text-decoration: none;
+  color: #fffaec;
+  font-size: 0.9rem;
+}
+
+.divFooter {
+  height: 80px;
+  background-color: #131a22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divFooter > span {
+  color: #918f91;
+}
