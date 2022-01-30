@@ -6,8 +6,11 @@ import Footer from "../../components/footer/footer";
 
 import classes from "./product.module.css";
 
-function Product() {
-  const [value, setValue] = useState(4);
+
+
+const Product = () => {
+  const [rating, setRating] = useState(4);
+
   return (
     <Fragment>
       <Navbar />
@@ -24,11 +27,11 @@ function Product() {
               <div className={classes.productDetails}>
                 <h3>DualShock 4 Wireless Controller for Playstation 4</h3>
                 <hr></hr>
-                <Rating name="read-only" value={value} readOnly />
+                <Rating name="read-only" value={rating} readOnly />
                 <p>
                   Price:{" "}
                   <span className={classes.productSpan}>
-                    <b>$59.98</b>
+                    <b>$49.90</b>
                   </span>
                 </p>
                 <p>Ships from and sold by Amazon.com.</p>
